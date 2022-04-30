@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  min-height: 60vh;
+  background: url("./bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+}
+
+.nav {
+  min-height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+nav ul {
+  width: 40%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.headline {
+  position: absolute;
+  text-align: center;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.headline h1 {
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-headline {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.todo-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.form {
+  min-height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+
+.form input {
+  min-height: 100%;
+}
+
+.form input[type="text"] {
+  width: 78%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.form input[type="submit"] {
+  width: 10%;
+  background-color: #292651;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  margin-right: 100px;
+}
+
+.signup {
+  margin-top: 5rem;
+  text-align: center;
+  background: rgb(240, 240, 240);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.signupform {
+  text-align: left;
+  max-width: 800px;
+  width: 95%;
+  /* border: 1px solid #000; */
+  margin: auto;
+}
+
+.signupform label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 9px;
+}
+
+.signupform input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.formgroup {
+  margin-top: 1rem;
+}
+
+.signupform textarea {
+  width: 100%;
+}
+
+.signbtn {
+  padding: 1rem 1.5rem;
+  background-color: #292651;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  display: block;
+  margin: auto;
+}
+
+.bottom {
+  margin-bottom: 14px;
+}
