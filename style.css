@@ -39,6 +39,23 @@ nav ul {
   justify-content: space-between;
 }
 
+.todolist li {
+  padding: 0.7rem;
+  background: #444;
+  color: white;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todobtn {
+  padding: 00.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .headline {
   position: absolute;
   text-align: center;
@@ -96,6 +113,12 @@ nav ul {
   margin-right: 100px;
 }
 
+.todolist {
+  text-align: left;
+  font-size: 1.2rem;
+  list-style-type: none;
+}
+
 .signup {
   margin-top: 5rem;
   text-align: center;
@@ -108,7 +131,6 @@ nav ul {
   text-align: left;
   max-width: 800px;
   width: 95%;
-  /* border: 1px solid #000; */
   margin: auto;
 }
 
@@ -140,6 +162,11 @@ nav ul {
   font-weight: bold;
   display: block;
   margin: auto;
+}
+
+.dark {
+  background: black;
+  color: white;
 }
 
 .bottom {
